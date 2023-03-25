@@ -1,8 +1,8 @@
 ---
 layout: post
-title: You'1re up and running!
+title: Footer Test
+image: images/404.jpg
 ---
-
 Test
 Test
 Test
