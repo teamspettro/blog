@@ -46,7 +46,6 @@ body {
 li{
   color: black;
 }
-
 h1 
 {
   font-size: 30px;
@@ -62,11 +61,20 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-family: "Raleway" !important; 
+  font-size: 14px;
   color: $gray;
+
 }
 .p {
 font-weight:900px;
+}
+.blog-roll-image
+{
+  width: 255px;
+  height: 188px;
+  object-fit: cover;
+
 }
 
 

@@ -25,11 +25,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- CUSTOM STUFF -->
-    <link rel="stylesheet" type="text/css" href="https://teamspettro.github.io/globalCSS.css">
     <script src="https://teamspettro.github.io/extras.js"></script>
     <script src="https://teamspettro.github.io/script.js"></script>
     <link rel="stylesheet" type="text/css" href="https://teamspettro.github.io/style.css">
-    <link rel="stylesheet" type="text/css" href="https://teamspettro.github.io/blog/blogstyle.css">
 
     <!-- ICON STUFF -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
@@ -38,6 +36,7 @@
     <link rel="manifest" href="https://teamspettro.github.io/site.webmanifest">
 
     <!-- TESTING STUFF, REMOVE IN NON-DEVELOPMENT VERSION -->
+    <link rel="stylesheet" type="text/css" href="https://teamspettro.github.io/blog/blogstyle.css">
     <link rel="stylesheet" type="text/css" href="https://teamspettro.github.io/globalCSS.css">
     <script src="https://teamspettro.github.io/extras.js"></script>
     </head>
@@ -50,13 +49,7 @@
     <div id="main" role="main" class="container" >
       
       {{ content }}
-      <ul>
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+      
     </div>
 
     <!-- <div class="wrapper-footer">
