@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} Blog</title>
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} Blog</title>
+  {% include meta.html %}
 
-    {% include meta.html %}
+<body> 
+  <div class="container">
+  <h3>Team Spettro Blog</h3>
+  <a style="font-family: Hind;" href="{{ site.baseurl }}/">Home Page</a>
+  <a style="font-family: Hind;" href="{{ site.baseurl }}/about">About</a>    
+  </div>
 
-    
+  <div style="padding-top: 25px;"></div>
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+ 
+  <div style="padding-top: 25px;"></div>
 
-  <body>
-     <div style="padding-top: 100px;"></div>
-    <div id="main" role="main" class="container" >
-      
-      {{ content }}
-      
-    </div>
+  
 
-    <!-- <div class="wrapper-footer">
+  <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>
       </div>
-    </div> -->
+    </div>
 
-  </body>
+</body>
 </html>

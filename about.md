@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Developers of Mono-Space, a 2D platformer with a color-shifting mechanic and a unique geometrical art style!
+On this blog, you'll see updates on the development of Mono-Space and videos with new features!
 
-### More Information
+### Contact us via Twitter
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[Twitter](https://twitter.com/TeamSpettro)
