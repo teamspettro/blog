@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Artstyle of Mono-Space
-image: images/artstyle.jpg
+image: images/artstyle.png
 ---
 I'm Nextin, the current leader and main developer (and artist) of Mono-Space, I wanted to make this quick little blog to talk about the art style of the game.
 
